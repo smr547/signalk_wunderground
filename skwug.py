@@ -89,7 +89,7 @@ print("dewpoint_degF=",dewpoint_degF)
 # update weather underground
 
 station_id = "ICANBE857"
-password = "euFikp04"
+password = "xxxxxxx"
 request = "https://weatherstation.wunderground.com/weatherstation/updateweatherstation.php?ID="
 request += station_id + "&PASSWORD=" + password + "&dateutc=now"
 request += "&tempf=" + str(tempF) 
